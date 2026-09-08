@@ -1,13 +1,10 @@
 #include <iostream>
 
 int main() {
-	double a, h, S;
-
+	std::cout << "Enter triangle side and height" << std::endl;
+	double a, h;
 	std::cin >> a >> h;
-
-	S = 0.5 * a * h;
-
-	std::cout << S << std::endl;
-
+	double s = 0.5 * a * h;
+	std::cout << "s = " << s << std::endl;
 	return 0;
 }
