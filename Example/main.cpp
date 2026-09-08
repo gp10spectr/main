@@ -1,10 +1,13 @@
 #include <iostream>
+#include "Triangle.h"
 
 int main() {
-	std::cout << "Enter triangle side and height" << std::endl;
+	std::cout << "calculate size of triangle" << std::endl;
+	std::cout << "input side and height lenght of your triangle" << std::endl;
 	double a, h;
 	std::cin >> a >> h;
-	double s = 0.5 * a * h;
-	std::cout << "s = " << s << std::endl;
+	Triangle triangle(a, h);
+	std::cout << "size of your triangle equals " << triangle.trianglesize() << std::endl;
 	return 0;
+
 }
