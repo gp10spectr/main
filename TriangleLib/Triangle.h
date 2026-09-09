@@ -11,7 +11,7 @@ public:
 	void setheight(double h);
 	double getside();
 	double getheight();
-	Triangle(double side, double height);
+	Triangle(double s = 1.0, double h = 0.75);
 	double trianglesize();
 
 

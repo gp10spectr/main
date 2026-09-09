@@ -23,7 +23,10 @@ double Triangle::getheight() {
 	return height;
 }
 
-Triangle::Triangle(double s = 1.0, double h = 0.75) {
+Triangle::Triangle(double s, double h) {
+	if (s <= 0 || h <= 0) {
+		throw std::exception("invalid arg");
+	}
 	side = s;
 	height = h;
 }
