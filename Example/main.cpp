@@ -1,6 +1,7 @@
 #include <iostream>
 #include "Triangle.h"
 
+//try?
 int main() {
 	std::cout << "calculate size of triangle" << std::endl;
 	std::cout << "input side and height lenght of your triangle" << std::endl;

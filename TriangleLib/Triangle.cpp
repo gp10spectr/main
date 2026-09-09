@@ -1,15 +1,16 @@
 #include "Triangle.h"
+#include <stdexcept>
 
 void Triangle::setside(double a) {
 	if (a <= 0) {
-		throw std::invalid_argument("Wrong side size");
+		throw std::exception("invalid arg");
 	}
 	side = a;
 }
 
 void Triangle::setheight(double h) {
 	if (h <= 0) {
-		throw std::invalid_argument("Wrong height size");
+		throw std::exception("invalid arg");
 	}
 	height = h;
 }
@@ -23,9 +24,6 @@ double Triangle::getheight() {
 }
 
 Triangle::Triangle(double s = 1.0, double h = 0.75) {
-	if (s <= 0 || h <= 0) {
-		throw std::invalid_argument("Wrong size");
-	}
 	side = s;
 	height = h;
 }
