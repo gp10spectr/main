@@ -3,14 +3,14 @@
 
 void Triangle::setside(double a) {
 	if (a <= 0) {
-		throw std::exception("invalid arg");
+		throw std::invalid_argument("invalid arg");
 	}
 	side = a;
 }
 
 void Triangle::setheight(double h) {
 	if (h <= 0) {
-		throw std::exception("invalid arg");
+		throw std::invalid_argument("invalid arg");
 	}
 	height = h;
 }
@@ -25,7 +25,7 @@ double Triangle::getheight() {
 
 Triangle::Triangle(double s, double h) {
 	if (s <= 0 || h <= 0) {
-		throw std::exception("invalid arg");
+		throw std::invalid_argument("invalid arg");
 	}
 	side = s;
 	height = h;
@@ -34,4 +34,3 @@ Triangle::Triangle(double s, double h) {
 double Triangle::trianglesize() {
 	return 0.5 * side * height;
 }
-

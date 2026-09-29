@@ -3,7 +3,7 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="Example/Example.vcxproj" Id="b0014aa4-8d68-42ab-9ead-63271b22feb6" />
-  <Project Path="TriangleLib/TriangleLib.vcxproj" Id="7f0158f6-f201-407d-ab7c-d75cd0ed169f" />
-  <Project Path="TriangleTest/TriangleTest.vcxproj" Id="6ef9ee09-581b-4353-bbb9-230b0252f038" />
+  <Project Path="Example/Example.vcxproj" Id="51b9ebda-9820-4808-84ab-0170294f9690" />
+  <Project Path="TriangleLib/TriangleLib.vcxproj" Id="22fd1e1f-5252-40e6-bef4-5560547fff5e" />
+  <Project Path="TriangleTest/TriangleTest.vcxproj" Id="e131838f-d7e4-4c10-92ab-23b0412653fb" />
 </Solution>
